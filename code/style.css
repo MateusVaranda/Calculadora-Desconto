@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #268ebe91;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    width: 650px;
+    height: 300px;
+    gap: 20px;
+}
+
+.values {
+    padding: 20px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 350px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 550;
+    color: #242222;
+    padding-bottom: 5px;
+}
+
+label {
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 450;
+    color: #777777;
+    margin-bottom: 3px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+    padding: 10px;
+    cursor: text;
+    margin-bottom: 10px;
+    
+}
+input[type=number]::-webkit-inner-spin-button{
+    appearance: none; 
+}
+
+input:focus {
+    border-color: #268ebe;
+    outline: 2px solid #268ebe40;
+}
+
+#calculate-button {
+    background-color: #fc4b2a;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 480;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#calculate-button:hover {
+    background-color: #df3518;
+}
+
+.discount-values {
+    padding: 20px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 350px;
+}
+
+.container {
+    padding: 20px;
+    background-color: #3ddb8f28;
+    height: 100%;
+    border-radius: 25px;
+}
+
+h2 {
+    background-color: #1e8d63;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 250;
+    width: 37%;
+}
+
+p {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 750;
+    color: #272424b7;
+}

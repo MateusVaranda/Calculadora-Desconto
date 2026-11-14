@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora De Desconto</title>
+</head>
+
+<body>
+    <main>
+        <section class="values">
+
+            <h1>Calculadora De <span>Desconto</span></h1>
+
+            <label for="price">Preço do Produto:</label>
+
+            <input type="number" id="price" placeholder="Digite o preço do produto">
+
+            <label for="discount">Desconto (%):</label>
+
+            <input type="number" id="discount" placeholder="Digite a porcentagem">
+
+            <button type="button" id="calculate-button">Calcular</button>
+
+        </section>
+
+        <section class="discount-values">
+            <div class="container">
+                <h2>Resultados</h2>
+
+                <div class="result">
+
+                    <p>Valor Descontado:<span id="discount-result">R$ 0,00</span></p>
+
+                    <p>Valor Final á Pagar:<span id="final-price">R$ 0,00</span></p>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
